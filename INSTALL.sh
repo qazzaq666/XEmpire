@@ -42,7 +42,7 @@ echo "Installing dependencies..."
 pip install -r requirements.txt
 
 echo "Copying .env-example to .env..."
-cp .env-example .env
+
 
 echo "Please edit the .env file to add your API_ID and API_HASH."
 read -p "Press any key to continue..."
